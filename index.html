@@ -27,7 +27,7 @@
 <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-
+<link rel="stylesheet" href="css/jquery.fancybox.css" />
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -87,8 +87,8 @@
       <div class="col-md-8 col-md-offset-2">
         <div class="about-text">
           <p>I am front and back end  Full Stack Developer. Received B.E degree in computer science from Amravati university, India in 2011 and M.E degree in computer science & information technology from Amravati university, India in 2015. <br>Areas of interest are Data Mining, Machine Learning, Natural Language Processing and Artificial Intelligence. </p>
-          <p class="text-center"><a class="btn btn-primary" href="Resume_asrar.pdf"><i class="fa fa-download"></i> Download Resume</a></p>
-        </div>
+          <p class="text-center"><a class="btn btn-primary" href="Resume_asrar.pdf" data-fancybox-type="iframe" rel="attachments"><i class="fa fa-download"></i> Download Resume</a></p>
+        </div>   
       </div>
     </div>
   </div>
@@ -475,7 +475,8 @@ Computing, Communication And Intelligence “At Mauritius, 23rd -29th May. 2014.
     </div>
   </div>
 </div>
-<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery.fancybox.js"></script> 
 <script type="text/javascript" src="js/bootstrap.js"></script> 
 <script type="text/javascript" src="js/SmoothScroll.js"></script> 
 <script type="text/javascript" src="js/easypiechart.js"></script> 
@@ -486,5 +487,16 @@ Computing, Communication And Intelligence “At Mauritius, 23rd -29th May. 2014.
 <script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
 <script type="text/javascript" src="js/contact_me.js"></script> 
 <script type="text/javascript" src="js/main.js"></script>
-</body>
+<script type="text/javascript">
+      $(document).ready(function () {
+          $('.btn.btn-primary').fancybox({
+              width: 720,
+              height: 600,
+              type: 'iframe'
+			  
+          });
+          
+      });
+ </script>
+</body>	
 </html>
