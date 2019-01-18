@@ -247,7 +247,7 @@ hr {
 	font-size: .8em;
 }
 /* Publications Section */
-#publications ul li {
+#list ul li {
   background: #cce5ff;
   margin: 5px;
 }
