@@ -250,6 +250,7 @@ hr {
 #list ul li {
   background: #cce5ff;
   margin: 5px;
+  font-weight: bold;
 }
 /* Portfolio Section */
 #portfolio {
