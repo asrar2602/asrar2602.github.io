@@ -246,6 +246,14 @@ hr {
 	margin-left: 0.1em;
 	font-size: .8em;
 }
+/* Publications Section */
+#pubications {
+	
+}
+#list li
+{
+	display: inline-block;
+}
 /* Portfolio Section */
 #portfolio {
 	padding: 80px 0;
