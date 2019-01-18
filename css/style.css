@@ -247,7 +247,10 @@ hr {
 	font-size: .8em;
 }
 /* Publications Section */
-
+#publications ul li {
+  background: #cce5ff;
+  margin: 5px;
+}
 /* Portfolio Section */
 #portfolio {
 	padding: 80px 0;
